@@ -1,32 +1,25 @@
 🔹 Purpose
 
 This project demonstrates a simple network automation workflow:
-
 Generate a fleet of router devices in a JSON inventory
-
 Simulate BGP attributes such as OS version, ASN, and session state
-
 Identify devices affected by a known software bug
-
 Apply targeted BGP remediation logic
-
 Export updated device state and a remediation report
 
 🔹 Part 1: Generate Router Inventory (JSON)
-Description
-
-This script generates 100 router devices and stores them in a JSON file.
+Description:  This script generates 100 router devices and stores them in a JSON file.
 Each router includes:
 
-OS version
+    1. OS version
+    2. Hostname, IP, MAC address
+    3. BGP neighbor information (type, ASN, session state)
+    This simulates a realistic router inventory used for automation.
 
-Hostname, IP, MAC address
+### Script: generate_devices.py
 
-BGP neighbor information (type, ASN, session state)
+'''python
 
-This simulates a realistic router inventory used for automation.
-
-Script: generate_devices.py
 import json
 import random
 
@@ -59,9 +52,10 @@ with open("devices.json", "w") as f:
 
 print("devices.json generated")
 
-🔹 Part 2: BGP Remediation Automation
-Description
+'''
 
+## Part 2: BGP Remediation Automation
+Description: 
 This script simulates remediation of a known software bug:
 
 Devices running OS versions older than 1234
@@ -71,18 +65,13 @@ require a BGP soft clear when the session comes up.
 The script:
 
 Reads the generated device inventory
-
 Identifies affected BGP sessions
-
 Simulates a soft clear action
 
-Exports:
 
-Updated device state
 
-A remediation report
+'''python
 
-Script: bgp_remediation.py
 import json
 from copy import deepcopy
 
@@ -165,22 +154,11 @@ if __name__ == "__main__":
     print(f"- {OUTPUT_UPDATED_FILE}")
     print(f"- {OUTPUT_REPORT_FILE}")
 
-🔹 Output Files
+'''
+
+## Output Files
 
 devices.json – original generated inventory
-
 devices_updated.json – inventory after remediation
-
 remediation_report.json – summary of remediated BGP sessions
 
-🔹 Why This Matters
-
-This project demonstrates:
-
-Inventory-driven automation
-
-Conditional logic based on protocol attributes
-
-Safe, targeted remediation
-
-Clear separation between input, processing, and output
