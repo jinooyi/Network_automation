@@ -1,0 +1,24 @@
+{
+  "routers": [
+    {
+      "hostname": "rtr-001",
+      "os_version": 11.5,
+      "bgp_neighbors": 72
+    },
+    {
+      "hostname": "rtr-002",
+      "os_version": 12.3,
+      "bgp_neighbors": 18
+    },
+    {
+      "hostname": "rtr-003",
+      "os_version": 11.9,
+      "bgp_neighbors": 55
+    },
+    {
+      "hostname": "rtr-004",
+      "os_version": 13.0,
+      "bgp_neighbors": 80
+    }
+  ]
+}

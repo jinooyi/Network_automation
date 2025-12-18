@@ -1,0 +1,112 @@
+{
+  "remediations": [
+    {
+      "device": "R15",
+      "hostname": "router-015",
+      "neighbor_ip": "192.0.2.15",
+      "asn": 67998,
+      "old_state": "Active",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R16",
+      "hostname": "router-016",
+      "neighbor_ip": "192.0.2.16",
+      "asn": 66888,
+      "old_state": "Active",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R30",
+      "hostname": "router-030",
+      "neighbor_ip": "192.0.2.30",
+      "asn": 66594,
+      "old_state": "Active",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R40",
+      "hostname": "router-040",
+      "neighbor_ip": "192.0.2.40",
+      "asn": 67236,
+      "old_state": "Idle",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R44",
+      "hostname": "router-044",
+      "neighbor_ip": "192.0.2.44",
+      "asn": 69240,
+      "old_state": "Idle",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R46",
+      "hostname": "router-046",
+      "neighbor_ip": "192.0.2.46",
+      "asn": 68145,
+      "old_state": "Idle",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R48",
+      "hostname": "router-048",
+      "neighbor_ip": "192.0.2.48",
+      "asn": 66446,
+      "old_state": "Idle",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R63",
+      "hostname": "router-063",
+      "neighbor_ip": "192.0.2.63",
+      "asn": 67503,
+      "old_state": "Idle",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R71",
+      "hostname": "router-071",
+      "neighbor_ip": "192.0.2.71",
+      "asn": 67589,
+      "old_state": "Active",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R87",
+      "hostname": "router-087",
+      "neighbor_ip": "192.0.2.87",
+      "asn": 66137,
+      "old_state": "Active",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R95",
+      "hostname": "router-095",
+      "neighbor_ip": "192.0.2.95",
+      "asn": 68922,
+      "old_state": "Active",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    },
+    {
+      "device": "R98",
+      "hostname": "router-098",
+      "neighbor_ip": "192.0.2.98",
+      "asn": 68713,
+      "old_state": "Active",
+      "new_state": "Established",
+      "reason": "version<1234 + eBGP + 32bit ASN + session up"
+    }
+  ]
+}

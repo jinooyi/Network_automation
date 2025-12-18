@@ -1,0 +1,1504 @@
+{
+  "devices": [
+    {
+      "name": "R1",
+      "hostname": "router-001",
+      "ip": "10.0.0.1",
+      "mac": "AA:BB:CC:DD:EE:01",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.1",
+          "type": "eBGP",
+          "asn": 65287,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R2",
+      "hostname": "router-002",
+      "ip": "10.0.0.2",
+      "mac": "AA:BB:CC:DD:EE:02",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.2",
+          "type": "iBGP",
+          "asn": 66262,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R3",
+      "hostname": "router-003",
+      "ip": "10.0.0.3",
+      "mac": "AA:BB:CC:DD:EE:03",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.3",
+          "type": "iBGP",
+          "asn": 66880,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R4",
+      "hostname": "router-004",
+      "ip": "10.0.0.4",
+      "mac": "AA:BB:CC:DD:EE:04",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.4",
+          "type": "eBGP",
+          "asn": 65806,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R5",
+      "hostname": "router-005",
+      "ip": "10.0.0.5",
+      "mac": "AA:BB:CC:DD:EE:05",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.5",
+          "type": "eBGP",
+          "asn": 66365,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R6",
+      "hostname": "router-006",
+      "ip": "10.0.0.6",
+      "mac": "AA:BB:CC:DD:EE:06",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.6",
+          "type": "iBGP",
+          "asn": 69125,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R7",
+      "hostname": "router-007",
+      "ip": "10.0.0.7",
+      "mac": "AA:BB:CC:DD:EE:07",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.7",
+          "type": "eBGP",
+          "asn": 65207,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R8",
+      "hostname": "router-008",
+      "ip": "10.0.0.8",
+      "mac": "AA:BB:CC:DD:EE:08",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.8",
+          "type": "eBGP",
+          "asn": 64882,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R9",
+      "hostname": "router-009",
+      "ip": "10.0.0.9",
+      "mac": "AA:BB:CC:DD:EE:09",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.9",
+          "type": "iBGP",
+          "asn": 66771,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R10",
+      "hostname": "router-010",
+      "ip": "10.0.0.10",
+      "mac": "AA:BB:CC:DD:EE:0A",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.10",
+          "type": "eBGP",
+          "asn": 66547,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R11",
+      "hostname": "router-011",
+      "ip": "10.0.0.11",
+      "mac": "AA:BB:CC:DD:EE:0B",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.11",
+          "type": "iBGP",
+          "asn": 64640,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R12",
+      "hostname": "router-012",
+      "ip": "10.0.0.12",
+      "mac": "AA:BB:CC:DD:EE:0C",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.12",
+          "type": "eBGP",
+          "asn": 64659,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R13",
+      "hostname": "router-013",
+      "ip": "10.0.0.13",
+      "mac": "AA:BB:CC:DD:EE:0D",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.13",
+          "type": "eBGP",
+          "asn": 69899,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R14",
+      "hostname": "router-014",
+      "ip": "10.0.0.14",
+      "mac": "AA:BB:CC:DD:EE:0E",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.14",
+          "type": "iBGP",
+          "asn": 69682,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R15",
+      "hostname": "router-015",
+      "ip": "10.0.0.15",
+      "mac": "AA:BB:CC:DD:EE:0F",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.15",
+          "type": "eBGP",
+          "asn": 67998,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R16",
+      "hostname": "router-016",
+      "ip": "10.0.0.16",
+      "mac": "AA:BB:CC:DD:EE:10",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.16",
+          "type": "eBGP",
+          "asn": 66888,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R17",
+      "hostname": "router-017",
+      "ip": "10.0.0.17",
+      "mac": "AA:BB:CC:DD:EE:11",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.17",
+          "type": "iBGP",
+          "asn": 66070,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R18",
+      "hostname": "router-018",
+      "ip": "10.0.0.18",
+      "mac": "AA:BB:CC:DD:EE:12",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.18",
+          "type": "iBGP",
+          "asn": 69156,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R19",
+      "hostname": "router-019",
+      "ip": "10.0.0.19",
+      "mac": "AA:BB:CC:DD:EE:13",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.19",
+          "type": "iBGP",
+          "asn": 65805,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R20",
+      "hostname": "router-020",
+      "ip": "10.0.0.20",
+      "mac": "AA:BB:CC:DD:EE:14",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.20",
+          "type": "iBGP",
+          "asn": 66818,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R21",
+      "hostname": "router-021",
+      "ip": "10.0.0.21",
+      "mac": "AA:BB:CC:DD:EE:15",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.21",
+          "type": "eBGP",
+          "asn": 65189,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R22",
+      "hostname": "router-022",
+      "ip": "10.0.0.22",
+      "mac": "AA:BB:CC:DD:EE:16",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.22",
+          "type": "iBGP",
+          "asn": 69446,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R23",
+      "hostname": "router-023",
+      "ip": "10.0.0.23",
+      "mac": "AA:BB:CC:DD:EE:17",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.23",
+          "type": "iBGP",
+          "asn": 65379,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R24",
+      "hostname": "router-024",
+      "ip": "10.0.0.24",
+      "mac": "AA:BB:CC:DD:EE:18",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.24",
+          "type": "iBGP",
+          "asn": 65999,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R25",
+      "hostname": "router-025",
+      "ip": "10.0.0.25",
+      "mac": "AA:BB:CC:DD:EE:19",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.25",
+          "type": "eBGP",
+          "asn": 67259,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R26",
+      "hostname": "router-026",
+      "ip": "10.0.0.26",
+      "mac": "AA:BB:CC:DD:EE:1A",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.26",
+          "type": "eBGP",
+          "asn": 64774,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R27",
+      "hostname": "router-027",
+      "ip": "10.0.0.27",
+      "mac": "AA:BB:CC:DD:EE:1B",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.27",
+          "type": "eBGP",
+          "asn": 65224,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R28",
+      "hostname": "router-028",
+      "ip": "10.0.0.28",
+      "mac": "AA:BB:CC:DD:EE:1C",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.28",
+          "type": "eBGP",
+          "asn": 68688,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R29",
+      "hostname": "router-029",
+      "ip": "10.0.0.29",
+      "mac": "AA:BB:CC:DD:EE:1D",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.29",
+          "type": "eBGP",
+          "asn": 65213,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R30",
+      "hostname": "router-030",
+      "ip": "10.0.0.30",
+      "mac": "AA:BB:CC:DD:EE:1E",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.30",
+          "type": "eBGP",
+          "asn": 66594,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R31",
+      "hostname": "router-031",
+      "ip": "10.0.0.31",
+      "mac": "AA:BB:CC:DD:EE:1F",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.31",
+          "type": "eBGP",
+          "asn": 67224,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R32",
+      "hostname": "router-032",
+      "ip": "10.0.0.32",
+      "mac": "AA:BB:CC:DD:EE:20",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.32",
+          "type": "eBGP",
+          "asn": 69501,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R33",
+      "hostname": "router-033",
+      "ip": "10.0.0.33",
+      "mac": "AA:BB:CC:DD:EE:21",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.33",
+          "type": "iBGP",
+          "asn": 65213,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R34",
+      "hostname": "router-034",
+      "ip": "10.0.0.34",
+      "mac": "AA:BB:CC:DD:EE:22",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.34",
+          "type": "eBGP",
+          "asn": 68219,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R35",
+      "hostname": "router-035",
+      "ip": "10.0.0.35",
+      "mac": "AA:BB:CC:DD:EE:23",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.35",
+          "type": "eBGP",
+          "asn": 68749,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R36",
+      "hostname": "router-036",
+      "ip": "10.0.0.36",
+      "mac": "AA:BB:CC:DD:EE:24",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.36",
+          "type": "iBGP",
+          "asn": 68908,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R37",
+      "hostname": "router-037",
+      "ip": "10.0.0.37",
+      "mac": "AA:BB:CC:DD:EE:25",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.37",
+          "type": "eBGP",
+          "asn": 67177,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R38",
+      "hostname": "router-038",
+      "ip": "10.0.0.38",
+      "mac": "AA:BB:CC:DD:EE:26",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.38",
+          "type": "iBGP",
+          "asn": 69630,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R39",
+      "hostname": "router-039",
+      "ip": "10.0.0.39",
+      "mac": "AA:BB:CC:DD:EE:27",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.39",
+          "type": "eBGP",
+          "asn": 67921,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R40",
+      "hostname": "router-040",
+      "ip": "10.0.0.40",
+      "mac": "AA:BB:CC:DD:EE:28",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.40",
+          "type": "eBGP",
+          "asn": 67236,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R41",
+      "hostname": "router-041",
+      "ip": "10.0.0.41",
+      "mac": "AA:BB:CC:DD:EE:29",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.41",
+          "type": "iBGP",
+          "asn": 65605,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R42",
+      "hostname": "router-042",
+      "ip": "10.0.0.42",
+      "mac": "AA:BB:CC:DD:EE:2A",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.42",
+          "type": "iBGP",
+          "asn": 68971,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R43",
+      "hostname": "router-043",
+      "ip": "10.0.0.43",
+      "mac": "AA:BB:CC:DD:EE:2B",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.43",
+          "type": "iBGP",
+          "asn": 69555,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R44",
+      "hostname": "router-044",
+      "ip": "10.0.0.44",
+      "mac": "AA:BB:CC:DD:EE:2C",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.44",
+          "type": "eBGP",
+          "asn": 69240,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R45",
+      "hostname": "router-045",
+      "ip": "10.0.0.45",
+      "mac": "AA:BB:CC:DD:EE:2D",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.45",
+          "type": "iBGP",
+          "asn": 68356,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R46",
+      "hostname": "router-046",
+      "ip": "10.0.0.46",
+      "mac": "AA:BB:CC:DD:EE:2E",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.46",
+          "type": "eBGP",
+          "asn": 68145,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R47",
+      "hostname": "router-047",
+      "ip": "10.0.0.47",
+      "mac": "AA:BB:CC:DD:EE:2F",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.47",
+          "type": "iBGP",
+          "asn": 67075,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R48",
+      "hostname": "router-048",
+      "ip": "10.0.0.48",
+      "mac": "AA:BB:CC:DD:EE:30",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.48",
+          "type": "eBGP",
+          "asn": 66446,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R49",
+      "hostname": "router-049",
+      "ip": "10.0.0.49",
+      "mac": "AA:BB:CC:DD:EE:31",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.49",
+          "type": "eBGP",
+          "asn": 69479,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R50",
+      "hostname": "router-050",
+      "ip": "10.0.0.50",
+      "mac": "AA:BB:CC:DD:EE:32",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.50",
+          "type": "iBGP",
+          "asn": 66690,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R51",
+      "hostname": "router-051",
+      "ip": "10.0.0.51",
+      "mac": "AA:BB:CC:DD:EE:33",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.51",
+          "type": "eBGP",
+          "asn": 66240,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R52",
+      "hostname": "router-052",
+      "ip": "10.0.0.52",
+      "mac": "AA:BB:CC:DD:EE:34",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.52",
+          "type": "iBGP",
+          "asn": 66686,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R53",
+      "hostname": "router-053",
+      "ip": "10.0.0.53",
+      "mac": "AA:BB:CC:DD:EE:35",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.53",
+          "type": "iBGP",
+          "asn": 69124,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R54",
+      "hostname": "router-054",
+      "ip": "10.0.0.54",
+      "mac": "AA:BB:CC:DD:EE:36",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.54",
+          "type": "iBGP",
+          "asn": 69485,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R55",
+      "hostname": "router-055",
+      "ip": "10.0.0.55",
+      "mac": "AA:BB:CC:DD:EE:37",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.55",
+          "type": "iBGP",
+          "asn": 67590,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R56",
+      "hostname": "router-056",
+      "ip": "10.0.0.56",
+      "mac": "AA:BB:CC:DD:EE:38",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.56",
+          "type": "eBGP",
+          "asn": 64878,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R57",
+      "hostname": "router-057",
+      "ip": "10.0.0.57",
+      "mac": "AA:BB:CC:DD:EE:39",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.57",
+          "type": "iBGP",
+          "asn": 66932,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R58",
+      "hostname": "router-058",
+      "ip": "10.0.0.58",
+      "mac": "AA:BB:CC:DD:EE:3A",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.58",
+          "type": "iBGP",
+          "asn": 68434,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R59",
+      "hostname": "router-059",
+      "ip": "10.0.0.59",
+      "mac": "AA:BB:CC:DD:EE:3B",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.59",
+          "type": "eBGP",
+          "asn": 65508,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R60",
+      "hostname": "router-060",
+      "ip": "10.0.0.60",
+      "mac": "AA:BB:CC:DD:EE:3C",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.60",
+          "type": "eBGP",
+          "asn": 66320,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R61",
+      "hostname": "router-061",
+      "ip": "10.0.0.61",
+      "mac": "AA:BB:CC:DD:EE:3D",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.61",
+          "type": "iBGP",
+          "asn": 67400,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R62",
+      "hostname": "router-062",
+      "ip": "10.0.0.62",
+      "mac": "AA:BB:CC:DD:EE:3E",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.62",
+          "type": "iBGP",
+          "asn": 68390,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R63",
+      "hostname": "router-063",
+      "ip": "10.0.0.63",
+      "mac": "AA:BB:CC:DD:EE:3F",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.63",
+          "type": "eBGP",
+          "asn": 67503,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R64",
+      "hostname": "router-064",
+      "ip": "10.0.0.64",
+      "mac": "AA:BB:CC:DD:EE:40",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.64",
+          "type": "iBGP",
+          "asn": 69803,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R65",
+      "hostname": "router-065",
+      "ip": "10.0.0.65",
+      "mac": "AA:BB:CC:DD:EE:41",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.65",
+          "type": "iBGP",
+          "asn": 67740,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R66",
+      "hostname": "router-066",
+      "ip": "10.0.0.66",
+      "mac": "AA:BB:CC:DD:EE:42",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.66",
+          "type": "iBGP",
+          "asn": 67350,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R67",
+      "hostname": "router-067",
+      "ip": "10.0.0.67",
+      "mac": "AA:BB:CC:DD:EE:43",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.67",
+          "type": "eBGP",
+          "asn": 64847,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R68",
+      "hostname": "router-068",
+      "ip": "10.0.0.68",
+      "mac": "AA:BB:CC:DD:EE:44",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.68",
+          "type": "eBGP",
+          "asn": 68171,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R69",
+      "hostname": "router-069",
+      "ip": "10.0.0.69",
+      "mac": "AA:BB:CC:DD:EE:45",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.69",
+          "type": "iBGP",
+          "asn": 67994,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R70",
+      "hostname": "router-070",
+      "ip": "10.0.0.70",
+      "mac": "AA:BB:CC:DD:EE:46",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.70",
+          "type": "iBGP",
+          "asn": 65761,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R71",
+      "hostname": "router-071",
+      "ip": "10.0.0.71",
+      "mac": "AA:BB:CC:DD:EE:47",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.71",
+          "type": "eBGP",
+          "asn": 67589,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R72",
+      "hostname": "router-072",
+      "ip": "10.0.0.72",
+      "mac": "AA:BB:CC:DD:EE:48",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.72",
+          "type": "eBGP",
+          "asn": 68361,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R73",
+      "hostname": "router-073",
+      "ip": "10.0.0.73",
+      "mac": "AA:BB:CC:DD:EE:49",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.73",
+          "type": "eBGP",
+          "asn": 69560,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R74",
+      "hostname": "router-074",
+      "ip": "10.0.0.74",
+      "mac": "AA:BB:CC:DD:EE:4A",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.74",
+          "type": "iBGP",
+          "asn": 67146,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R75",
+      "hostname": "router-075",
+      "ip": "10.0.0.75",
+      "mac": "AA:BB:CC:DD:EE:4B",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.75",
+          "type": "iBGP",
+          "asn": 68197,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R76",
+      "hostname": "router-076",
+      "ip": "10.0.0.76",
+      "mac": "AA:BB:CC:DD:EE:4C",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.76",
+          "type": "eBGP",
+          "asn": 67487,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R77",
+      "hostname": "router-077",
+      "ip": "10.0.0.77",
+      "mac": "AA:BB:CC:DD:EE:4D",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.77",
+          "type": "eBGP",
+          "asn": 67504,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R78",
+      "hostname": "router-078",
+      "ip": "10.0.0.78",
+      "mac": "AA:BB:CC:DD:EE:4E",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.78",
+          "type": "eBGP",
+          "asn": 66056,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R79",
+      "hostname": "router-079",
+      "ip": "10.0.0.79",
+      "mac": "AA:BB:CC:DD:EE:4F",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.79",
+          "type": "eBGP",
+          "asn": 66108,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R80",
+      "hostname": "router-080",
+      "ip": "10.0.0.80",
+      "mac": "AA:BB:CC:DD:EE:50",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.80",
+          "type": "iBGP",
+          "asn": 64735,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R81",
+      "hostname": "router-081",
+      "ip": "10.0.0.81",
+      "mac": "AA:BB:CC:DD:EE:51",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.81",
+          "type": "iBGP",
+          "asn": 66837,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R82",
+      "hostname": "router-082",
+      "ip": "10.0.0.82",
+      "mac": "AA:BB:CC:DD:EE:52",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.82",
+          "type": "iBGP",
+          "asn": 66259,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R83",
+      "hostname": "router-083",
+      "ip": "10.0.0.83",
+      "mac": "AA:BB:CC:DD:EE:53",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.83",
+          "type": "iBGP",
+          "asn": 67128,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R84",
+      "hostname": "router-084",
+      "ip": "10.0.0.84",
+      "mac": "AA:BB:CC:DD:EE:54",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.84",
+          "type": "iBGP",
+          "asn": 68414,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R85",
+      "hostname": "router-085",
+      "ip": "10.0.0.85",
+      "mac": "AA:BB:CC:DD:EE:55",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.85",
+          "type": "iBGP",
+          "asn": 64849,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R86",
+      "hostname": "router-086",
+      "ip": "10.0.0.86",
+      "mac": "AA:BB:CC:DD:EE:56",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.86",
+          "type": "eBGP",
+          "asn": 69165,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R87",
+      "hostname": "router-087",
+      "ip": "10.0.0.87",
+      "mac": "AA:BB:CC:DD:EE:57",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.87",
+          "type": "eBGP",
+          "asn": 66137,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R88",
+      "hostname": "router-088",
+      "ip": "10.0.0.88",
+      "mac": "AA:BB:CC:DD:EE:58",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.88",
+          "type": "iBGP",
+          "asn": 66534,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R89",
+      "hostname": "router-089",
+      "ip": "10.0.0.89",
+      "mac": "AA:BB:CC:DD:EE:59",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.89",
+          "type": "iBGP",
+          "asn": 67904,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R90",
+      "hostname": "router-090",
+      "ip": "10.0.0.90",
+      "mac": "AA:BB:CC:DD:EE:5A",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.90",
+          "type": "iBGP",
+          "asn": 68522,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R91",
+      "hostname": "router-091",
+      "ip": "10.0.0.91",
+      "mac": "AA:BB:CC:DD:EE:5B",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.91",
+          "type": "iBGP",
+          "asn": 66855,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R92",
+      "hostname": "router-092",
+      "ip": "10.0.0.92",
+      "mac": "AA:BB:CC:DD:EE:5C",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.92",
+          "type": "eBGP",
+          "asn": 67186,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R93",
+      "hostname": "router-093",
+      "ip": "10.0.0.93",
+      "mac": "AA:BB:CC:DD:EE:5D",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.93",
+          "type": "eBGP",
+          "asn": 65302,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R94",
+      "hostname": "router-094",
+      "ip": "10.0.0.94",
+      "mac": "AA:BB:CC:DD:EE:5E",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.94",
+          "type": "eBGP",
+          "asn": 67813,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R95",
+      "hostname": "router-095",
+      "ip": "10.0.0.95",
+      "mac": "AA:BB:CC:DD:EE:5F",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.95",
+          "type": "eBGP",
+          "asn": 68922,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R96",
+      "hostname": "router-096",
+      "ip": "10.0.0.96",
+      "mac": "AA:BB:CC:DD:EE:60",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.96",
+          "type": "iBGP",
+          "asn": 64820,
+          "state": "Idle"
+        }
+      ]
+    },
+    {
+      "name": "R97",
+      "hostname": "router-097",
+      "ip": "10.0.0.97",
+      "mac": "AA:BB:CC:DD:EE:61",
+      "version": 1234,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.97",
+          "type": "eBGP",
+          "asn": 64543,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R98",
+      "hostname": "router-098",
+      "ip": "10.0.0.98",
+      "mac": "AA:BB:CC:DD:EE:62",
+      "version": 1233,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.98",
+          "type": "eBGP",
+          "asn": 68713,
+          "state": "Active"
+        }
+      ]
+    },
+    {
+      "name": "R99",
+      "hostname": "router-099",
+      "ip": "10.0.0.99",
+      "mac": "AA:BB:CC:DD:EE:63",
+      "version": 1232,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.99",
+          "type": "eBGP",
+          "asn": 64704,
+          "state": "Established"
+        }
+      ]
+    },
+    {
+      "name": "R100",
+      "hostname": "router-100",
+      "ip": "10.0.0.100",
+      "mac": "AA:BB:CC:DD:EE:64",
+      "version": 1235,
+      "bgp_neighbors": [
+        {
+          "neighbor_ip": "192.0.2.100",
+          "type": "iBGP",
+          "asn": 64780,
+          "state": "Established"
+        }
+      ]
+    }
+  ]
+}
