@@ -152,7 +152,7 @@ Simulates a soft clear action
 
 ## Output Files
 
-devices.json – original generated inventory
-devices_updated.json – inventory after remediation
-remediation_report.json – summary of remediated BGP sessions
+- devices.json – original generated inventory
+- devices_updated.json – inventory after remediation
+- remediation_report.json – summary of remediated BGP sessions
 
