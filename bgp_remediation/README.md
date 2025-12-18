@@ -1,4 +1,4 @@
-🔹 Purpose
+## Purpose
 
 This project demonstrates a simple network automation workflow:
 Generate a fleet of router devices in a JSON inventory
@@ -7,7 +7,7 @@ Identify devices affected by a known software bug
 Apply targeted BGP remediation logic
 Export updated device state and a remediation report
 
-🔹 Part 1: Generate Router Inventory (JSON)
+## Part 1: Generate Router Inventory (JSON)
 Description:  This script generates 100 router devices and stores them in a JSON file.
 Each router includes:
 
@@ -16,7 +16,7 @@ Each router includes:
     3. BGP neighbor information (type, ASN, session state)
     This simulates a realistic router inventory used for automation.
 
-### Script: generate_devices.py
+#### Script: generate_devices.py
 
     import json
     import random
@@ -61,14 +61,11 @@ with eBGP neighbors using 32-bit ASNs
 require a BGP soft clear when the session comes up.
 
 The script:
-
 Reads the generated device inventory
 Identifies affected BGP sessions
 Simulates a soft clear action
 
-
-
-    '''python
+#### remediate.py
 
     import json
     from copy import deepcopy
@@ -152,7 +149,6 @@ Simulates a soft clear action
         print(f"- {OUTPUT_UPDATED_FILE}")
         print(f"- {OUTPUT_REPORT_FILE}")
 
-    '''
 
 ## Output Files
 
