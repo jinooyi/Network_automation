@@ -17,8 +17,7 @@ network automation, inventory parsing, and log analysis.
 - Parse faux NSM data
 - Identify and count DENY events by source IP
 
-## Why This Repo
-The goal is to demonstrate:
+### The goal is to demonstrate:
 - Inventory-driven automation
 - Clear filtering logic
 - Practical Python for network operations
